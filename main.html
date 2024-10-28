@@ -8,11 +8,11 @@
 <body>
 
   <div class="player">
-        <video class="viewer" src="https://www.w3schools.com/html/mov_bbb.mp4"></video>
+        <video class="viewer player__video" src="https://www.w3schools.com/html/mov_bbb.mp4"></video>
 
         <div class="controls">
             <button class="player__button toggle" id="playPause">►</button>
-            <button id="rewind">« 10s</button>
+            <button id="rewind" class="rewind">« 10s</button>
             <button id="forward">25s »</button>
             <input type="range" id="volume" min="0" max="1" step="0.05" value="1">
             <input type="range" id="playbackSpeed" min="0.5" max="2" step="0.1" value="1">
